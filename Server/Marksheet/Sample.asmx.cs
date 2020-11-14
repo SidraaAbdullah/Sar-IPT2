@@ -60,21 +60,18 @@ namespace Marksheet
 
         }
 
-
-        public class SubjectModel
-        {
-            public string name { get; set; }
-            public double obtainedMarks { get; set; }
-        }
-
         public class MarksheetModel
         {
-          
             public double MinMarks { get; set; }
             public double MaxMarks { get; set; }
             public string MinSubjectMarks { get; set; }
             public string MaxSubjectMarks { get; set; }
             public double Percentage { get; set; }
+        }
+        public class SubjectModel
+        {
+            public string name { get; set; }
+            public double obtainedMarks { get; set; }
         }
 
     }
